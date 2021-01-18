@@ -8,7 +8,7 @@ const apiKey = '2b886709ca77f09ea739fe83837f8f13'
 
 export class App extends Component {
   constructor() {
-    super()
+    super();
     this.state = {
       movies: [],
     }

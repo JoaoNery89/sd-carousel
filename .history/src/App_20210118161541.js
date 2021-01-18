@@ -29,6 +29,9 @@ export class App extends Component {
         <h1 className="App-title">
           <span>SDFlix</span>
         </h1>
+        <div>
+          <h1></h1>
+        </div>
         <Slider movies={movies} />
       </div>
     )
