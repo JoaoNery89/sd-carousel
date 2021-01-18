@@ -234,8 +234,8 @@ export class slider extends Component {
     
     return (
       <div>
-        <div className="slider">
-          <p className="p">Trending Now</p>
+        <div className="slider-title">
+          <p className="slider-p">Trending Now</p>
         </div>
         <div className="slider">
           {sliderHasMoved && (
