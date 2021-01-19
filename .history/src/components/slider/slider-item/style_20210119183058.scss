@@ -21,11 +21,6 @@
   }
 }
 
-.myBox{
-  display: flex;
-  margin-top: 50px;
-}
-
 .container:hover ~ .box {
   transform: translateX(25%);
 }

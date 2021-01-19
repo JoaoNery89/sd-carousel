@@ -1,3 +1,34 @@
+.slider-item {
+  padding: 0 4px;
+  display: inline-block;
+
+  &-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:first-of-type {
+    padding-left: 0;
+  }
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.slider-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+
 .container {
   padding: 0 4px;
   display: inline-block;
@@ -19,11 +50,6 @@
   &:last-of-type {
     padding-right: 0;
   }
-}
-
-.myBox{
-  display: flex;
-  margin-top: 50px;
 }
 
 .container:hover ~ .box {
