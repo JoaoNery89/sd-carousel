@@ -4,7 +4,7 @@ require("./style.scss")
 
 const SliderItem = ({ movie, width }) => {
   return (
-    <div className="c1" style={{ width: `${width}%` }}>
+    <div className="c1" >
       <div class="c1">
         <img className="i"
           src={`http://image.tmdb.org/t/p/w780${movie.backdrop_path}`}

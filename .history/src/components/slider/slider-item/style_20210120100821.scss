@@ -35,11 +35,11 @@
 }
 
 .content {
-  //background-color: rgb(0, 0, 0);
-  text-shadow: -1px 2px rgb(98, 98, 98);
+  background-color: rgb(0, 0, 0);
+  text-shadow: -1px 2px rgb(255, 0, 0);
 }
 
-/// teste 1
+///
 
 .c {
   display: flex;
@@ -47,6 +47,7 @@
   padding: 0 8px;
   display: inline-block;
   position: relative;
+  text-align: center;
   color: white;
 
   &-image {
@@ -64,76 +65,30 @@
 }
 
 .b {
-  flex: 1 1 0px;
+  //flex: 1 1 0px;
   transition: transform 300ms ease 100ms;
   width: 100%;
   height: 100%;
 }
 
-.b:after {
-  content: "";
-  display: block;
-  padding-top: 70%;
-}
+// .b:after {
+//   content: "";
+//   display: block;
+//   padding-top: 70%;
+// }
 
-.c:hover .b {
-  transform: translateX(-25%);
-}
+// .c:hover .b {
+//   transform: translateX(-25%);
+// }
 
-.b:hover ~ .b {
-  transform: translateX(25%);
-}
+// .b:hover ~ .box {
+//   transform: translateX(25%);
+// }
 
 .c .b:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 body {
   overflow: hidden;
-}
-
-
-// teste 2
-
-.c1 {
-  display: flex;
-  margin-top: 0px;
-  padding: 0 8px;
-  display: inline-block;
-  position: relative;
-  color: white;
-  overflow: hidden;
-
-  &-image {
-    width: 100%;
-    height: 100%;
-  }
-  
-  &:first-of-type {
-    padding-left: 0;
-  }
-
-  &:last-of-type {
-    padding-right: 0;
-  }
-}
-
-.i {
-  position: relative;
-  display: block;
-  flex: 1 1 0px;
-  transition: transform 500ms;
-  width: 100%;
-  height: 100%;
-}
-
-.c1 .i:focus,
-.c1 .i:hover {
-  transform: scale(1.5);
-  z-index: 1;
-}
-
-.i img {
-  display: block;
-  max-width: 100%;
 }

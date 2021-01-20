@@ -102,20 +102,6 @@ body {
   display: inline-block;
   position: relative;
   color: white;
-  overflow: hidden;
-
-  &-image {
-    width: 100%;
-    height: 100%;
-  }
-  
-  &:first-of-type {
-    padding-left: 0;
-  }
-
-  &:last-of-type {
-    padding-right: 0;
-  }
 }
 
 .i {
@@ -123,8 +109,6 @@ body {
   display: block;
   flex: 1 1 0px;
   transition: transform 500ms;
-  width: 100%;
-  height: 100%;
 }
 
 .c1 .i:focus,
