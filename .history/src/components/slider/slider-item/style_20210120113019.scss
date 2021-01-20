@@ -1,4 +1,6 @@
-.c1 {
+
+
+.container {
   display: flex;
   margin-top: 0px;
   padding: 0 8px;
@@ -25,8 +27,8 @@
   overflow: hidden;
 }
 
-.c1 .i:focus,
-.c1 .i:hover {
+.container .i:focus,
+.container .i:hover {
   transform: scale(1.2);
   z-index: 1;
 }
@@ -52,9 +54,6 @@
 }
 
 .content {
+  //background-color: rgb(0, 0, 0);
   text-shadow: -1px 2px rgb(98, 98, 98);
-}
-
-body {
-  overflow: hidden;
 }
