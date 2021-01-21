@@ -17,8 +17,11 @@ import 'bitmovin-player/bitmovinplayer-ui.css'
 
 class SdBitmovinPlayer extends React.Component {
 
-  state = {
-    player: null,
+  constructor(props) {
+    super()
+    this.state = {
+      player: null,
+    };
   }
 
   playerConfig = {
@@ -26,9 +29,9 @@ class SdBitmovinPlayer extends React.Component {
   }
 
   playerSource = {
-    //dash: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd',
-    hls: 'https://ecbahia.tvnanuvem.com/hls/6075202829fd11eb8679c26f739b3ce9/playlist.m3u8',  //  https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8
-    //poster: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/poster.jpg'
+    dash: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd',
+    hls: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
+    poster: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/poster.jpg'
   }
 
   constructor(props) {
